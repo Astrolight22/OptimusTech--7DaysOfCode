@@ -1,0 +1,67 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    padding: 28px 80px;
+}
+
+.identidade_visual_header {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.logo_header {
+    width: 27px;
+}
+
+.nome_empresa {
+    font-family: var(--font_padrao);
+    color: var(--cor_identidade);
+    font-size: 1.15em;
+    font-weight: 500;
+}
+
+.opcoes_menu {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+    padding-right: 80px;
+}
+
+.opcoes_link {
+}
+
+.link_menu {
+    text-decoration: none;
+    font-family: var(--font_padrao);
+    color: var(--cor_cinza);
+    font-size: 1em;
+    font-weight: 500;
+    font-family: var(--font_padrao);
+}
+
+.opcoes_botoes{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.botao_entrar {
+    padding: 10px 18px;
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: var(--font_padrao);
+}
+
+.botão_cadastrar {
+    border: 8px solid var(--cor_vermelho);
+    border-radius: 8px;
+    padding: 10px 18px;
+    background-color: var(--cor_vermelho);
+    color: var(--cor_branco);
+    font-size: 1em;
+    font-weight: 500;
+    font-family: var(--font_padrao);
+}
