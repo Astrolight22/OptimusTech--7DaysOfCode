@@ -1,11 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 @import url(styles/reset.css);
 @import url(styles/header.css);
+@import url(styles/content.css);
 
 :root {
     --cor_identidade: #3A404E;
     --cor_cinza: #667085;
+    --cor_cinza_escuro: #101828;
     --cor_vermelho: #8E2424;
     --cor_branco: #FFFFFF;
     --font_padrao: "Inter", sans-serif;
+}
+
+body {
+    background-color: var(--cor_branco);
+    font-family: var(--font_padrao);
 }
